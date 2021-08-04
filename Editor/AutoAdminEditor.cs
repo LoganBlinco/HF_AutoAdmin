@@ -15,7 +15,7 @@ public class AutoAdminEditor : Editor
 		DrawDefaultInspector();
 		if (GUILayout.Button("Run Method"))
 		{
-			AutoAdmin.PassConfigVariables(new string[] { "2531692643:ArmyLineInfantry:15,4,5,6,7,8" });
+			ConfigVariables.PassConfigVariables(new string[] { "2531692643:ArmyLineInfantry:15,4,5,6,7,8" });
 		}
 	}
 }
